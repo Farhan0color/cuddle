@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page with Iframe</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /* Prevents scrolling */
+            background-color: #f0f0f0; /* Light gray background */
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 20px; /* Padding around the iframe */
+            box-sizing: border-box; /* Includes padding in the height calculation */
+            background-color: #fff; /* White background for contrast */
+            box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Soft shadow for a lifted effect */
+        }
+        iframe {
+            width: calc(100vw - 40px); /* Subtract padding from the total viewport width */
+            height: calc(100vh - 40px); /* Subtract padding from the total viewport height */
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <iframe src="https://chaturbate.com/in/?tour=J2in&campaign=1d78p&track=embed&signup_notice=1&disable_sound=1&mobileRedirect=never" height="480px" width="850px" frameborder="0" class="code" scrolling="no"></iframe>
+    </div>
+</body>
+</html>
